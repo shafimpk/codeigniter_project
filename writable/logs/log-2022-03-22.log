@@ -1,0 +1,288 @@
+CRITICAL - 2022-03-22 05:57:59 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\laragon\www\codeigniter\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\laragon\www\codeigniter\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\laragon\www\codeigniter\spark(45): require('C:\\laragon\\www\\...')
+#4 {main}
+CRITICAL - 2022-03-22 01:05:26 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\laragon\www\codeigniter\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 C:\laragon\www\codeigniter\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\laragon\www\codeigniter\system\Common.php(312): CodeIgniter\Database\Config::connect('default', true)
+#3 C:\laragon\www\codeigniter\system\Database\MigrationRunner.php(149): db_connect(NULL)
+#4 C:\laragon\www\codeigniter\system\Config\Services.php(376): CodeIgniter\Database\MigrationRunner->__construct(NULL, NULL)
+#5 C:\laragon\www\codeigniter\system\Config\BaseService.php(248): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), NULL, false)
+#6 C:\laragon\www\codeigniter\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('migrations', Array)
+#7 C:\laragon\www\codeigniter\system\Config\Services.php(371): CodeIgniter\Config\BaseService::getSharedInstance('migrations', NULL, NULL)
+#8 C:\laragon\www\codeigniter\system\Config\BaseService.php(248): CodeIgniter\Config\Services::migrations()
+#9 C:\laragon\www\codeigniter\system\Commands\Database\Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic('migrations', Array)
+#10 C:\laragon\www\codeigniter\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 C:\laragon\www\codeigniter\system\CLI\CommandRunner.php(70): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 C:\laragon\www\codeigniter\system\CLI\CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#13 C:\laragon\www\codeigniter\system\CodeIgniter.php(830): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#14 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#15 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\laragon\www\codeigniter\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#17 C:\laragon\www\codeigniter\spark(63): CodeIgniter\CLI\Console->run()
+#18 {main}
+CRITICAL - 2022-03-22 01:18:55 --> Call to a member function query() on null
+#0 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-22 01:19:42 --> Call to a member function query() on null
+#0 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-22 01:21:25 --> Call to a member function query() on null
+#0 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-22 01:21:26 --> Call to a member function query() on null
+#0 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-22 01:35:17 --> Call to a member function query() on null
+#0 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-22 01:35:55 --> Call to a member function select() on null
+#0 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-22 01:36:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-22 01:38:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-22 01:43:52 --> Cannot use object of type stdClass as array
+#0 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-22 01:44:24 --> Cannot use object of type stdClass as array
+#0 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-22 02:28:15 --> Access level to App\Models\SelectItem::$db must be protected (as in class CodeIgniter\BaseModel) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-03-22 02:35:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 1' at line 1
+CRITICAL - 2022-03-22 02:35:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 1' at line 1
+#0 C:\laragon\www\codeigniter\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from s...', 0)
+#1 C:\laragon\www\codeigniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from s...')
+#2 C:\laragon\www\codeigniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from s...')
+#3 C:\laragon\www\codeigniter\app\Models\SelectItem.php(80): CodeIgniter\Database\BaseConnection->query('select * from s...')
+#4 C:\laragon\www\codeigniter\app\Controllers\Home.php(29): App\Models\SelectItem->get_child_item(1)
+#5 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-22 02:36:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+CRITICAL - 2022-03-22 02:36:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+#0 C:\laragon\www\codeigniter\system\Database\MySQLi\Connection.php(292): mysqli->query('select * from s...', 0)
+#1 C:\laragon\www\codeigniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('select * from s...')
+#2 C:\laragon\www\codeigniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('select * from s...')
+#3 C:\laragon\www\codeigniter\app\Models\SelectItem.php(80): CodeIgniter\Database\BaseConnection->query('select * from s...')
+#4 C:\laragon\www\codeigniter\app\Controllers\Home.php(29): App\Models\SelectItem->get_child_item(1)
+#5 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-22 02:40:42 --> Undefined variable $db
+#0 C:\laragon\www\codeigniter\app\Models\SelectItem.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 50)
+#1 C:\laragon\www\codeigniter\app\Controllers\Home.php(27): App\Models\SelectItem->__construct()
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#3 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-22 02:44:12 --> Undefined variable $data
+#0 C:\laragon\www\codeigniter\app\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 54)
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->getchildren('1')
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-22 02:44:25 --> Attempt to read property "id" on null
+#0 C:\laragon\www\codeigniter\app\Controllers\Home.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 58)
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->getchildren('1')
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-22 02:46:22 --> Attempt to read property "id" on null
+#0 C:\laragon\www\codeigniter\app\Controllers\Home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 60)
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->getchildren('1')
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-22 02:46:47 --> Attempt to read property "id" on null
+#0 C:\laragon\www\codeigniter\app\Controllers\Home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 60)
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->getchildren('1')
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-22 02:53:54 --> Call to a member function with() on string
+#0 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-22 02:57:00 --> Undefined variable $items
+#0 C:\laragon\www\codeigniter\app\Views\welcome_message.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 235)
+#1 C:\laragon\www\codeigniter\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\laragon\www\codeigniter\app\Controllers\Home.php(34): view('welcome_message', Array)
+#5 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-22 02:57:49 --> Undefined property: App\Controllers\Home::$load
+#0 C:\laragon\www\codeigniter\app\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 34)
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-22 02:59:02 --> view(): Argument #2 ($data) must be of type array, App\Models\SelectItem given, called in C:\laragon\www\codeigniter\app\Controllers\Home.php on line 34
+#0 C:\laragon\www\codeigniter\app\Controllers\Home.php(34): view('welcome_message', Object(App\Models\SelectItem))
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-22 03:00:58 --> Call to a member function result_array() on array
+#0 C:\laragon\www\codeigniter\app\Controllers\Home.php(32): App\Models\SelectItem->get_all_data()
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-22 03:01:26 --> Undefined variable $items
+#0 C:\laragon\www\codeigniter\app\Views\welcome_message.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 235)
+#1 C:\laragon\www\codeigniter\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\laragon\www\codeigniter\app\Controllers\Home.php(34): view('welcome_message', Array)
+#5 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-22 03:03:30 --> Cannot use object of type App\Models\SelectItem as array
+#0 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-22 03:07:21 --> Cannot use object of type stdClass as array
+#0 C:\laragon\www\codeigniter\system\View\View.php(210): include()
+#1 C:\laragon\www\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 C:\laragon\www\codeigniter\app\Controllers\Home.php(36): view('welcome_message', Array)
+#4 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-22 05:08:23 --> Undefined variable $d
+#0 C:\laragon\www\codeigniter\app\Controllers\Home.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 70)
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->getchildren('2')
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-22 05:18:56 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+#0 C:\laragon\www\codeigniter\app\Models\SelectItem.php(85): count(Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\laragon\www\codeigniter\app\Controllers\Home.php(56): App\Models\SelectItem->get_child_items('2')
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->getchildren('2')
+#3 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-22 05:20:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\laragon\www\codeigniter\app\Controllers\Home.php(56): App\Models\SelectItem->get_child_items('2')
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->getchildren('2')
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-22 05:25:29 --> foreach() argument must be of type array|object, int given
+#0 C:\laragon\www\codeigniter\app\Controllers\Home.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\laragon\\www\\...', 58)
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->getchildren('2')
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-22 05:26:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::count()
+#0 C:\laragon\www\codeigniter\app\Controllers\Home.php(56): App\Models\SelectItem->get_child_items('2')
+#1 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->getchildren('2')
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-22 05:37:19 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$select_item
+#0 C:\laragon\www\codeigniter\app\Models\SelectItem.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 91)
+#1 C:\laragon\www\codeigniter\app\Controllers\Home.php(58): App\Models\SelectItem->create_child_items('6')
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->getchildren('6')
+#3 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-22 05:38:32 --> Attempt to read property "select_item" on array
+#0 C:\laragon\www\codeigniter\app\Models\SelectItem.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 91)
+#1 C:\laragon\www\codeigniter\app\Controllers\Home.php(58): App\Models\SelectItem->create_child_items('6')
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->getchildren('6')
+#3 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-22 05:38:46 --> Undefined array key "select_item"
+#0 C:\laragon\www\codeigniter\app\Models\SelectItem.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 91)
+#1 C:\laragon\www\codeigniter\app\Controllers\Home.php(58): App\Models\SelectItem->create_child_items('6')
+#2 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->getchildren('6')
+#3 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-22 06:18:53 --> Column 'select_item' cannot be null
+CRITICAL - 2022-03-22 06:18:53 --> Column 'select_item' cannot be null
+#0 C:\laragon\www\codeigniter\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\laragon\www\codeigniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\laragon\www\codeigniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\laragon\www\codeigniter\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\laragon\www\codeigniter\app\Models\SelectItem.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\codeigniter\app\Models\SelectItem.php(95): App\Models\SelectItem->insert_data(Array)
+#6 C:\laragon\www\codeigniter\app\Controllers\Home.php(58): App\Models\SelectItem->create_child_items('26')
+#7 C:\laragon\www\codeigniter\system\CodeIgniter.php(832): App\Controllers\Home->getchildren('26')
+#8 C:\laragon\www\codeigniter\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\laragon\www\codeigniter\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
